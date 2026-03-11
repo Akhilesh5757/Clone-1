@@ -1,0 +1,122 @@
+@media screen and (max-width:1000px) {
+    nav {
+        flex-direction: column;
+    }
+    .logo {
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul {
+        justify-content: center;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .search {
+        justify-content: center;
+    }
+    .search input {
+        margin: 8px 16px;
+        width: 70vw;
+    }
+    .slider {
+        width: 90vw;
+        height: auto;
+        margin: 12px auto;
+    }
+    .slider img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+    }
+    .card {
+        flex-wrap: nowrap;
+        padding: 20px;
+        margin: 20px;
+        justify-content: flex-start;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .card-row {
+        width: 150px;
+        text-align: center;
+        margin: 10px;
+    }
+    .card-row img {
+        width: 100px;
+        height: 120px;
+    }
+    .container {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card-row {
+        width: 45%;
+        min-width: 120px;
+    }
+    .search input {
+        width: 50vw;
+    }
+    nav ul li {
+        padding: 0 10px;
+    }
+    .slider {
+        width: 95vw;
+    }
+    .card {
+        padding: 15px;
+        margin: 15px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .card-row img {
+        width: 90px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .card-row {
+        width: 100%;
+    }
+    .search input {
+        width: 60vw;
+    }
+    .logo img {
+        width: 50px;
+        padding: 0 5px;
+    }
+    nav ul li {
+        padding: 0 5px;
+        font-size: 14px;
+    }
+    .card {
+        padding: 10px;
+        margin: 10px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .card-row {
+        width: 80%;
+        margin: 5px;
+    }
+    .card-row img {
+        width: 80px;
+        height: 100px;
+    }
+    h2 {
+        font-size: 1.2rem;
+        margin: 15px 0;
+    }
+    .slider img {
+        max-height: 200px;
+    }
+}
